@@ -1,0 +1,20 @@
+{
+    "pad": 0,
+    "Unknown": 1,
+    "Method": 2,
+    "Test": 3,
+    "Line": 4,
+    "RTest": 5,
+    "ReturnStatement": 6,
+    "LocalVariableDeclaration": 7,
+    "IfStatement": 8,
+    "StatementExpression": 9,
+    "Empty": 10,
+    "control": 11,
+    "parameters": 12,
+    "ConstructorDeclaration": 13,
+    "ThrowStatement": 14,
+    "WhileStatement": 15,
+    "BreakStatement": 16,
+    "ContinueStatement": 17
+}

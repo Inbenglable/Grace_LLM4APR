@@ -1,0 +1,1 @@
+{0: 'MemberVariableMutator', 1: 'PrimitiveReturnsMutator', 2: 'InlineConstantMutator', 3: 'RemoveIncrementsMutator', 4: 'PrimitiveReturnsMutator', 5: 'ArgumentPropagationMutator', 6: 'ReturnValsMutator', 7: 'VoidMethodCallMutator', 8: 'RemoveIncrementsMutator', 9: 'InlineConstantMutator', 10: 'RemoveIncrementsMutator'}
