@@ -220,15 +220,7 @@ def infer(t=1, p='Lang'):
     print('curr accuracy is ' + str(score) + "," + str(score2))
     return score2
 
-def infer(project):
-    cnt = 0
-    for i in range(26): # TODO: 改成对应的bug数
-        if infer(i, project)[0] == 0: # TODO: 改成对应的test项目
-            cnt += 1
-            print(i)
-            print(cnt)
 
-    print(cnt)
 
 if __name__ == "__main__":
     args.lr = float(sys.argv[3])
@@ -239,7 +231,15 @@ if __name__ == "__main__":
     p = sys.argv[2]
     res[int(sys.argv[1])] = train(int(sys.argv[1]), p)
     open('%sres%d_%d_%s_%s.pkl'%(p, int(sys.argv[1]), args.seed, args.lr, args.batch_size), 'wb').write(pickle.dumps(res))
-    print(infer(int(sys.argv[1]), sys.argv[2]))
+    # print(infer(int(sys.argv[1]), sys.argv[2]))
+    # cnt = 0
+    # for i in range(26): # TODO: 改成对应的bug数
+    #     if infer(i, project)[0] == 0: # TODO: 改成对应的test项目
+    #         cnt += 1
+    #         print(i)
+    #         print(cnt)
+
+    # print(cnt)
 
 
 
